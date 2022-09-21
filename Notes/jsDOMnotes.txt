@@ -1,0 +1,28 @@
+So i understand functions and i understand how to grab elements in the dom but manipulation is confusing 
+when to use what and how to know what selector to use 
+
+study events in javascript
+
+javascript can only process on object at a time so you cannot just grab all objects and color 
+them you have to put a loop or else the cache is full 
+
+ex 
+<p>duh</p>
+<p>duh</p>
+<p>duh</p>
+
+if you say document.querySelector("p").style.backgroundColor = "red";
+ the query called all of the p element into memory and picks the first one
+but you say document.querySelectorAll("p").style.backgroundColor = "red";
+ the javascript is confused because you never told it what to do with the first one in memory
+
+make a variable and set the variable equal to the name of the element clicked
+listen for event 
+set the toggle for the variable true if click else keep listening
+
+let Bc = eventlistiner()clicked
+eventlistenter
+if eventlistner clicked is true set Bc class to done 
+      or you could say 
+if clicked set the class of the element clicked to done
+
