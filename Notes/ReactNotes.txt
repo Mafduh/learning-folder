@@ -1,0 +1,15 @@
+react notes 
+destructering
+data flow 
+use i as index instead of using numbers for counting
+keep going be a developer
+use .map to loop and remember to add key otherwise when you delete a item out of the array
+otherwise react will not know which object to delete and have to re-render the whole page without the object that you deleted
+pure fuctions receive one input and always return one output
+ 
+in order to do data flow in react you have to tell it to do something and to show something do this = constructor() and show this = render()
+pass the do this into the place where you want to render it 
+ 
+super() make javascript read with priority and allows you to read outside the current scope 
+
+yous .children to wrap capital letters in react
